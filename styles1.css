@@ -139,3 +139,49 @@ nav ul li a.active {
 #contact a:hover {
     text-decoration: underline;
 }
+.coding-section {
+  background-color: #121212;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.coding-section h2 {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.profiles {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.profile-card {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.profile-card:hover {
+  transform: scale(1.05);
+}
+
+.profile-card img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.profile-card span {
+  display: block;
+  color: #fff;
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
